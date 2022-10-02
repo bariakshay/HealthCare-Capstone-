@@ -8,6 +8,7 @@ Step 1:- Performing Descriptive Analysis to get insight and understanding variab
         120.894531, BP = 69.105469, ST=20.536458, Insulin = 79.799479, BMI = 31.992578
         DPF = 0.471876
         2. All zeros values are replace with mean of this Variable.
+        
 Step 2:- Data Exploration
         1. Creating Count Plot. SO Here we can see that both the outcome i.e 0 & 1 is seen to be
         Balanced. So we can used this data to for training a model.
@@ -18,6 +19,7 @@ Step 2:- Data Exploration
         3. Performing Corelation Analysis.So here we get insight,Glucose and BMI has strong
         impact on the Outcome. There is a strong positive correlation between BMI and
         Skinthickness or Pregnancies and age
+        
 Step 3:- Data Modeling
         1. Predicted outcome using multiple module i.e. KNN, SVM, Logistic Regression,
         Random Forest Classification by standarizing the data.
@@ -26,6 +28,7 @@ Step 3:- Data Modeling
         module,Logistic Regression & Support vector machine. It has better balanced of
         classes between precision,recall,f1-score as compared to other model. So we choose
         Random Forest Classifier best fit module.
+        
 Step 4:- Data Reporting
         1. Create a tableau Dashboard to understand the data correlation and analyze the data
         distribution
