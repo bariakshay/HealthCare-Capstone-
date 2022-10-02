@@ -1,6 +1,7 @@
 # Healthcare Project
 
 Step 1:- Performing Descriptive Analysis to get insight and understanding variable of data.
+        
         1. There is 768 observations of 9 variable. Independent variables are Pregnencies ,
         Glucose, BloodPressure, Insulin, BMI and DiabetesPedigree Function. Age is
         Outcome Variable. Average Age of Patients are 33.24 with minimum being 21 and
@@ -10,6 +11,7 @@ Step 1:- Performing Descriptive Analysis to get insight and understanding variab
         2. All zeros values are replace with mean of this Variable.
         
 Step 2:- Data Exploration
+        
         1. Creating Count Plot. SO Here we can see that both the outcome i.e 0 & 1 is seen to be
         Balanced. So we can used this data to for training a model.
         2. Creating Scatter Plot. We can see from scatter plot that there is no strong
@@ -21,6 +23,7 @@ Step 2:- Data Exploration
         Skinthickness or Pregnancies and age
         
 Step 3:- Data Modeling
+        
         1. Predicted outcome using multiple module i.e. KNN, SVM, Logistic Regression,
         Random Forest Classification by standarizing the data.
         2. The Random Forest module look better because it has better accuracy score=83%
@@ -30,5 +33,6 @@ Step 3:- Data Modeling
         Random Forest Classifier best fit module.
         
 Step 4:- Data Reporting
+       
         1. Create a tableau Dashboard to understand the data correlation and analyze the data
         distribution
